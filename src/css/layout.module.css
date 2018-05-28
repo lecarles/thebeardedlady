@@ -1,0 +1,23 @@
+/*layout css*/
+
+.lgMenu {
+	display: grid;
+	grid-gap: 1em;
+	padding: 2em 14em;
+	z-index: 3;
+	position: fixed;
+}
+
+
+.logo{
+	font-family: proxima_novabold;
+	font-size: 3em;
+	padding-right: 1em;
+
+}
+
+.menuitem{
+	font-size: 1.3em;
+	padding-right: 1em;
+}
+

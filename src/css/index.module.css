@@ -1,0 +1,42 @@
+/* index page module */
+
+/* GRID */
+
+body{
+	background-color: black;
+}
+
+.wrapper {
+	-webkit-animation: fadein 1s ease;
+    -moz-animation: fadein 1s ease;
+    animation: fadein 1s ease;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto;
+	padding: 2em 14em;
+	padding-top: 12em;
+	background-color: black;
+}
+
+.fullscreenvideo{
+	display: flex;
+	position: fixed;
+	right: 5vw;
+	left: 5vw;
+    width: 90vw; 
+    height: auto;
+}
+
+.breakword{
+	word-spacing: 300em;
+	line-height: 0.9;
+}
+
+.header h3{
+	margin-top: 2em;
+}
+
+.header{
+	z-index: 2;
+}

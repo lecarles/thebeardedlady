@@ -1,0 +1,121 @@
+/* index page module */
+
+/* GRID */
+
+body{
+	background-color: #232628;
+}
+
+.wrapper {
+	background: linear-gradient(233deg, #72c7f5, #0085ce);
+	background-size: 400% 400%;
+    -webkit-animation: bgAnim 15s ease infinite, fadein 1s ease;
+    -moz-animation: bgAnim 15s ease infinite, fadein 1s ease;
+    animation: bgAnim 15s ease infinite, fadein 1s ease;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto;
+	padding: 2em 14em;
+	padding-top: 12em;
+	background-color: #232628;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+@-moz-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+@-webkit-keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+@-moz-keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+@keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+
+.servicios{
+	display:grid;
+	grid-template-columns: 0.4fr 0.7fr;
+	grid-gap: 5em;
+	padding-top: 4em;
+}
+
+.foto{
+	background-image: url(../img/img3.jpg);
+	grid-column: 1;
+	height: 100px;
+	width: 635px;
+	transition: 1s;
+}
+
+.fotoopen{
+	background-image: url(../img/img3.jpg);
+	grid-column: 1;
+	height: 635px;
+	width: 635px;
+	transition: 1s;
+}
+
+.subtitleopen{
+	display: block;
+	align-self: end;
+	animation: fadein 0.8s ease;
+}
+
+.subtitleclosed{
+	display: none;
+	animation: fadeout 0.8s ease;
+}
+
+.texto{
+	grid-column: 2;
+	align-self: end;
+	padding-top: 0.5em;
+}
+
+.texto{
+	grid-column: 2;
+	align-self: start;
+	padding-top: 0.5em;
+}
+
+.serviciotitle{
+	font-size: 5.5em;
+}
+
+
+

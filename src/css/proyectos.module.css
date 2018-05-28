@@ -1,0 +1,85 @@
+/* poject page module */
+
+/* GRID */
+
+.wrapper {
+	background: linear-gradient(233deg, #232628, #02040b);
+	background-size: 400% 400%;
+    -webkit-animation: bgAnim 25s ease infinite, fadein 1s ease;
+    -moz-animation: bgAnim 25s ease infinite, fadein 1s ease;
+    animation: bgAnim 25s ease infinite, fadein 1s ease;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 100vh;
+	padding: 0em;
+}
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+@-moz-keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+@keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+
+.texto {
+	font-family: proxima_novabold;
+	font-size: 7.5em;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	transform: rotate(-180deg);
+}
+
+.proyecto {
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	padding-bottom: 2em;
+	padding-right: 2em;	
+}
+
+#pprimero{
+	grid-column: 1;
+	background-image: url('../img/proyectos/ultimo.jpg');
+}
+
+#psegundo{
+	grid-column: 2;
+	background-image: url('../img/proyectos/singlu.jpg');
+}
+
+#ptercero{
+	grid-column: 3;
+	background-image: url('../img/proyectos/xabia.jpg');
+}
+
+#pcuarto{
+	grid-column: 4;
+	background-image: url('../img/proyectos/paredes.jpg');
+}

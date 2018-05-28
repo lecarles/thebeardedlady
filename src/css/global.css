@@ -1,0 +1,75 @@
+/* fonts */
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.woff2') format('woff2'),
+         url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novabold';
+    src: url('../fonts/mark_simonson_-_proxima_nova_bold-webfont.woff2') format('woff2'),
+         url('../fonts/mark_simonson_-_proxima_nova_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* general */
+
+
+body{
+    color: white;
+    margin: 0; 
+    scroll-behavior: smooth;
+}
+
+/* headers */
+
+h1, h2, h3, h4, p, li {
+    font-family: proxima_novabold;
+    margin: 0;
+    font-smoothing:antialiased;
+    -webkit-font-smoothing:antialiased;
+}
+
+h1{
+    font-size: 11.4em;
+}
+
+h2{
+    font-size: 5em;
+}
+
+h3{
+    font-size: 3em;
+    margin-top: -0.4em;
+    z-index: 2;
+}
+
+p{
+    font-size: 1.5em;
+    line-height: 1.9;
+}
+
+img {
+    margin: 5em 0em;
+}
+
+
+a{
+    font-family: proxima_novabold;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: yellow;
+}
+
+/* menu */
+
+
+
