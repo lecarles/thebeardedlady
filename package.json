@@ -13,10 +13,16 @@
     "gatsby-link": "^1.6.44",
     "google-maps-react": "^2.0.2",
     "npm": "^6.0.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
     "react-fontawesome": "^1.6.1",
     "react-modal-image": "^2.1.4",
+    "react-native": "^0.55.4",
+    "react-native-video": "^2.1.0",
     "react-player": "^1.6.2",
     "react-responsive-navbar": "^1.0.11",
-    "react-reveal": "^1.2.2"
+    "react-reveal": "^1.2.2",
+    "redux": "^4.0.0",
+    "video-react": "^0.10.9"
   }
 }
