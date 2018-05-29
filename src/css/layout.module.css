@@ -2,6 +2,7 @@
 
 .lgMenu {
 	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1em;
 	padding: 2em 14em;
 	z-index: 3;
@@ -9,15 +10,45 @@
 }
 
 
+
 .logo{
 	font-family: proxima_novabold;
 	font-size: 3em;
 	padding-right: 1em;
+	background: linear-gradient(233deg, #58CDE8, #DB4040, #FFEA83, #8357BC);
+  	background-size: 5em 10em;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-webkit-animation: bgAnim 20s ease infinite;
+    -moz-animation: bgAnim 20s ease infinite;
+    animation: bgAnim 20s ease infinite;
+}
 
+
+@-webkit-keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+@-moz-keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+@keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
 }
 
 .menuitem{
 	font-size: 1.3em;
 	padding-right: 1em;
+}
+
+.menuright {
+	align-self: center;
+	justify-self: end;
+	grid-column: 3;
 }
 

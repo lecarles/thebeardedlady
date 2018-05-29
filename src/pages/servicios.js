@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Link from 'gatsby-link';
 import image1 from '../img/img1.jpg'
 import styles from "../css/servicios.module.css";
+import Slide from 'react-reveal/Slide';
 
 require('../css/global.css');
 
@@ -45,14 +46,16 @@ class Servicios extends Component {
 
 
 render () {
-	console.log('rendered')
-	console.log(this.state.isOpen);
+	
 	return(
 	<div className={styles.wrapper}>
 
-		<h1>hacemos esto</h1>
-		<h3>ofrecemos estos servicios bla bla</h3>
-
+		<Slide bottom>
+		<h1>¿qué hacemos?</h1>
+		<h3>ofrecemos soluciones visuales sorprendentes</h3>
+		</Slide>
+		
+		<Slide bottom cascade>
 		<div className={styles.servicios}>
 			<a><div onClick={this.toggleClass} className={this.state.isFirstOpen ? styles.fotoopen : styles.foto}></div></a>
 			<a><div className={styles.texto}>
@@ -84,7 +87,7 @@ render () {
 				<p onClick={this.toggleClassFour} className={this.state.isFourthOpen ? styles.subtitleopen : styles.subtitleclosed}>Este es el primer punto de contacto entre el consumidor y una marca o producto. Tras analizar las necesidades de nuestros clientes para conseguir sus objetivos, en el estudio diseñamos envases, etiquetas o cualquier tipo de envoltorio. Abarcamos desde el desarrollo y la creación de packs originales, a la selección de materiales, procesos y acabados concretos para que el producto sea perfecto.</p>
 			</div></a>
 		</div>
-
+		</Slide>
 
 	</div>
 
