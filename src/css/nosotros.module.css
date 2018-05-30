@@ -14,7 +14,7 @@ body{
     animation: bgAnim 25s ease infinite, fadein 1s ease;
 
 	display: grid;
-	grid-template-columns: 0.3fr 0.4fr 1fr;
+	grid-template-columns: 0.3fr 0.65fr 1fr;
 	grid-template-rows: auto;
 	padding: 2em 14em;
 	padding-top: 12em;
@@ -81,7 +81,7 @@ body{
 .perfiles{
 	grid-column: 1/-1;
 	display: grid;
-	grid-template-columns: 0.3fr 0.45fr;
+	grid-template-columns: 0.3fr 0.65fr;
 	grid-template-rows: auto;
 	grid-column-gap: 3em;
 }

@@ -9,7 +9,30 @@
 	position: fixed;
 }
 
+.uparrowtrans{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 2em;
+	padding-right: 7em;
+	transition: 0.5s;
+	cursor: pointer;
+	opacity: 0;
+}
 
+.uparrow{
+	position: fixed;
+	bottom: 0;
+	right: -75px;
+	transition: 0.5s;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.uparrow:hover {
+	padding-bottom: 4em;
+
+}
 
 .logo{
 	font-family: proxima_novabold;

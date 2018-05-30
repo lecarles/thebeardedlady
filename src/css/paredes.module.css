@@ -90,3 +90,25 @@ Slide{
 	grid-column: 1/-1;
 }
 
+
+.next{
+    display: grid;
+    grid-template-columns: 5em 10em;
+    grid-gap: 1em;
+    align-items: center;
+    grid-row: 0.5fr;
+    padding: 2em 0em;
+    font-size: 1.5em;
+}
+
+svg{
+    transition: 0.5s;
+}
+
+.next:hover > svg{
+    margin-left: 1em;
+}
+
+.next:hover > svg > g > line, .next:hover > svg > g > polyline {
+    stroke: #FFEA83;
+}

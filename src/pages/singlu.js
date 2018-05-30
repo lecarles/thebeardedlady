@@ -58,7 +58,14 @@ export default () => (
 	</Slide>
 
 	<Slide bottom>
-		<Link to='/xabia/' className={styles.next}>Siguiente Proyecto</Link>
+				<Link to='/xabia/' className={styles.next}>Siguiente Proyecto<svg className={styles.nextarrow}version="1.2" baseProfile="tiny" x="0px" y="0px" width="112.5px" height="34.3px" viewBox="0 0 112.5 34.3">
+		<defs>
+		</defs>
+		<g>
+			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="0" y1="17.2" x2="109" y2="17.2"/>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="92.8,33.6 111,17.2 92.8,0.7 	"/>
+		</g>
+		</svg></Link>
 	</Slide>
 
 </div>
