@@ -23,7 +23,7 @@ export default ({ children }) => (
 		            <Link className={styles.menuitem} to="/contacta/">Contacta</Link>
 	            </div>
 	            <div className={styles.menuright}>
-		            <a className={styles.menuitem} href="#"><FontAwesome name='twitter'/></a>
+		            <a className={styles.menuitem} target="_blank" href="https://twitter.com/TBLStudio_"><FontAwesome name='twitter'/></a>
 		            <a className={styles.menuitem} href="#"><FontAwesome name='instagram'/></a>
 		            <a className={styles.menuitem} href="#"><FontAwesome name='facebook'/></a>
 	            </div>

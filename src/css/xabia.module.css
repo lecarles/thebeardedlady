@@ -1,0 +1,96 @@
+/* index page module */
+
+/* GRID */
+
+body{
+	animation: fadein 1s ease;	
+}
+
+
+img {
+	margin: 0;
+	object-fit: cover;
+  	width: 100%;
+  	max-height: 100%;
+}
+
+.wrapper {
+	background: linear-gradient(233deg, #FFEA83, white);
+	background-size: 400% 400%;
+    -webkit-animation: bgAnim 15s ease infinite, fadein 1s ease;
+    -moz-animation: bgAnim 15s ease infinite, fadein 1s ease;
+    animation: bgAnim 15s ease infinite, fadein 1s ease;
+	color: #232628;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	grid-column-gap: 5em;
+	grid-row-gap: 5em;
+	padding: 2em 14em;
+	padding-top: 12em;
+}
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+@-moz-keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+@keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+
+.projecttitle {
+	grid-column: 1/-1;
+	grid-row: 1;
+}
+
+.projectsubtitle {
+	grid-column: 1/-1;
+	grid-row: 1;
+}
+
+.hero {
+	grid-column: 1/-1;
+	grid-row: 2;
+}
+
+.double{
+	display: grid;
+	grid-column: 1/-1;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 5em;
+	grid-template-rows: auto;
+}
+
+.web{
+	grid-column: 1/-1;
+}
+
+Slide{
+	grid-column: 1/-1;
+}
+

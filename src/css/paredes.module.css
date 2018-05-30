@@ -6,6 +6,7 @@ body{
 	animation: fadein 1s ease;	
 }
 
+
 img {
 	margin: 0;
 	object-fit: cover;
@@ -88,3 +89,4 @@ img {
 Slide{
 	grid-column: 1/-1;
 }
+

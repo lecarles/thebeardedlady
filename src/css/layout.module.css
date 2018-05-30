@@ -47,6 +47,7 @@
 }
 
 .menuright {
+	z-index: 3;
 	align-self: center;
 	justify-self: end;
 	grid-column: 3;

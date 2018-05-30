@@ -14,10 +14,8 @@ export default () => (
         <source src={video} type="video/mp4"/>
     </video>
 	<Slide bottom>
-	<div className={styles.header}>
 		<h1 className={styles.breakword}>the bearded lady</h1>
-		<h3>una agencia de diseño venida del circo</h3>
-	</div>
+		<h3 className={styles.subtitle}>una agencia de diseño venida del circo</h3>
 	</Slide>
 </div>
 

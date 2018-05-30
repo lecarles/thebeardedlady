@@ -2,43 +2,82 @@
 
 /* GRID */
 
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body{
-	background-color: black;
+	
 }
 
 .wrapper {
-	background-color: black;
-	-webkit-animation: fadein 1s ease;
-    -moz-animation: fadein 1s ease;
-    animation: fadein 1s ease;
+	background: linear-gradient(233deg, #3e4654, #252525);
+	background-size: 400% 400%;
+    -webkit-animation: bgAnim 15s ease infinite, fadein 1s ease;
+    -moz-animation: bgAnim 15s ease infinite, fadein 1s ease;
+    animation: bgAnim 15s ease infinite, fadein 1s ease;
 
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: auto auto auto;
-	padding: 2em 14em;
-	padding-top: 12em;
-	height: 100vh;
+	padding: 0em 14em;
+	padding-top: 13em;
+	width: 100vw;
+  	height: 100vh;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+
+@-moz-keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
+}
+
+@keyframes bgAnim {
+    0%{background-position:75% 0%}
+    50%{background-position:26% 100%}
+    100%{background-position:75% 0%}
 }
 
 .fullscreenvideo{
 	display: flex;
 	position: fixed;
-	right: 5vw;
-	left: 5vw;
-    width: 90vw; 
-    height: auto;
+	justify-content: center;
+	align-self: center;
+	height: auto;
+    width: auto;
 }
 
 .breakword{
 	word-spacing: 300em;
 	line-height: 0.9;
+    z-index: 3;
 }
 
-.header h3{
-	margin-top: 0.5em;
+.subtitle{
 	color: #FFEA83;
+	margin-top: -2em;
 }
 
-.header{
-	z-index: 2;
-}
