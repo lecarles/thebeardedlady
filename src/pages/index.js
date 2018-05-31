@@ -15,7 +15,7 @@ export default () => (
     </video>
 	<Slide bottom>
 		<h1 className={styles.breakword}>the bearded lady</h1>
-		<h3 className={styles.subtitle}>una agencia de diseño venida del circo</h3>
+		<h3 className={styles.subtitle}>un estudio de diseño y branding</h3>	
 	</Slide>
 </div>
 

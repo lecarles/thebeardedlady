@@ -9,11 +9,11 @@ import ScrollUpButton from "react-scroll-up-button";
 export default ({ children }) => (
   <div>
 	      <ResponsiveMenu
-	        menuOpenButton={<div />}
-	        menuCloseButton={<div />}
-	        changeMenuOn="500px"
+	        menuOpenButton={<FontAwesome name='bars'/>}
+	        menuCloseButton={<FontAwesome name='times'/>}
+	        changeMenuOn="0px"
 	        largeMenuClassName="sda"
-	        smallMenuClassName="small-menu-classname"
+	        smallMenuClassName="sasfas"
 	        menu={
 	          <div className={styles.lgMenu}>
 	          	<div className={styles.menuleft}>
