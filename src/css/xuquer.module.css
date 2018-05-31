@@ -15,12 +15,12 @@ img {
 }
 
 .wrapper {
-	background: linear-gradient(233deg, #0e2647, #0e868d);
+	background: linear-gradient(233deg, #bc9397, #bc6f6f);
 	background-size: 400% 400%;
     -webkit-animation: bgAnim 15s ease infinite, fadein 1s ease;
     -moz-animation: bgAnim 15s ease infinite, fadein 1s ease;
     animation: bgAnim 15s ease infinite, fadein 1s ease;
-	color: white;
+
 
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -86,13 +86,10 @@ img {
 	grid-template-rows: auto;
 }
 
-.web{
-	grid-column: 1/-1;
-}
-
 Slide{
 	grid-column: 1/-1;
 }
+
 
 .next{
     display: grid;
@@ -104,10 +101,6 @@ Slide{
     font-size: 1.5em;
 }
 
-.wrapper a{
-    color: #232628;
-}
-
 svg{
     transition: 0.5s;
 }
@@ -116,7 +109,6 @@ svg{
     margin-left: 1em;
 }
 
-.next > svg > g > line, .next > svg > g > polyline {
-    stroke: #232628;
+.next:hover > svg > g > line, .next:hover > svg > g > polyline {
+    stroke: #FFEA83;
 }
-

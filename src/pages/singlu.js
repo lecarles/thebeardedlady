@@ -32,10 +32,8 @@ export default () => (
 	</Slide>
 	
 	<Slide bottom>
-		
-			<img src={sign} className={styles.sign}/>
-			<img src={poster} className={styles.poster}/>
-		
+		<img src={sign} className={styles.sign}/>
+		<img src={poster} className={styles.poster}/>
 	</Slide>
 
 	<Slide bottom>
@@ -58,7 +56,7 @@ export default () => (
 	</Slide>
 
 	<Slide bottom>
-				<Link to='/xabia/' className={styles.next}>Siguiente Proyecto<svg className={styles.nextarrow}version="1.2" baseProfile="tiny" x="0px" y="0px" width="112.5px" height="34.3px" viewBox="0 0 112.5 34.3">
+				<Link to='/circo/' className={styles.next}>Siguiente Proyecto<svg className={styles.nextarrow}version="1.2" baseProfile="tiny" x="0px" y="0px" width="112.5px" height="34.3px" viewBox="0 0 112.5 34.3">
 		<defs>
 		</defs>
 		<g>

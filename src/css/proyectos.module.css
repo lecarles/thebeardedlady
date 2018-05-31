@@ -112,7 +112,7 @@
 #ptercero{
 	opacity: 0.6;
 	grid-column: 3;
-	background-image: url('../img/proyectos/xabia.jpg');
+	background-image: url('../img/proyectos/xabiab.jpg');
 	animation: fadeinb 1s ease 0.8s backwards;
 	transition: 0.8s;
 }
@@ -120,7 +120,7 @@
 #pcuarto{
 	opacity: 0.6;
 	grid-column: 4;
-	background-image: url('../img/proyectos/paredes.jpg');
+	background-image: url('../img/proyectos/xuquer.jpg');
 	animation: fadeinb 1s ease 1.2s backwards;
 	transition: 0.8s;
 }

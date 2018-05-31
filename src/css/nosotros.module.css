@@ -105,3 +105,14 @@ body{
 #textbea{
 	word-spacing: 0em;
 }
+
+.xarxes {
+    display: grid;
+    grid-template-columns: 3em 3em 3em;
+}
+.menuitem{
+    font-size: 1.3em;
+    padding-right: 1em;
+    float: left;
+    display: inline;
+}

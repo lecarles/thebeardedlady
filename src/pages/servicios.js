@@ -68,7 +68,7 @@ render () {
 			<a><div onClick={this.toggleClassTwo} className={this.state.isSecondOpen ? styles.fotoopenweb : styles.fotoweb}></div></a>
 			<a><div className={styles.texto}>
 				<h2 onClick={this.toggleClassTwo} className={styles.serviciotitle}>diseño web</h2>
-				<p onClick={this.toggleClassTwo} className={this.state.isSecondOpen ? styles.subtitleopen : styles.subtitleclosed}>Trabajamos desde el primer píxel y no paramos hasta crear la mejor web. Nos especializamos en proyectos personalizados y únicos donde el diseño de la interfaz y la experiencia del usuario se atienden al máximo para crear  una sinergia entre ambos. Apostamos por un diseño desarrollado a medida, buscando la solución que mejor se adecúe a lo que nuestros clientes necesitan.</p>
+				<p onClick={this.toggleClassTwo} className={this.state.isSecondOpen ? styles.subtitleopen : styles.subtitleclosed}>Estudiamos las necesidades de nuestros clientes para poder sumergirnos de lleno en el diseño de la mejor web, buscando la solución que mejor se adecúe a lo que nuestros clientes necesitan. Trabajamos desde el primer píxel y no paramos hasta crear la mejor web. Nos especializamos en proyectos personalizados y únicos donde el diseño de la interfaz y la experiencia del usuario se atienden al máximo para crear una sinergia entre ambos.</p>
 			</div></a>
 		</div>
 
@@ -84,7 +84,7 @@ render () {
 			<a><div onClick={this.toggleClassFour} className={this.state.isFourthOpen ? styles.fotoopenpack : styles.fotopack}></div></a>
 			<a><div className={styles.texto}>
 				<h2 onClick={this.toggleClassFour} className={styles.serviciotitle}>packaging</h2>
-				<p onClick={this.toggleClassFour} className={this.state.isFourthOpen ? styles.subtitleopen : styles.subtitleclosed}>Este es el primer punto de contacto entre el consumidor y una marca o producto. Tras analizar las necesidades de nuestros clientes para conseguir sus objetivos, en el estudio diseñamos envases, etiquetas o cualquier tipo de envoltorio. Abarcamos desde el desarrollo y la creación de packs originales, a la selección de materiales, procesos y acabados concretos para que el producto sea perfecto.</p>
+				<p onClick={this.toggleClassFour} className={this.state.isFourthOpen ? styles.subtitleopen : styles.subtitleclosed}>Este es el primer punto de contacto entre el consumidor y una marca o producto. Diseñamos envases, etiquetas o cualquier tipo de envoltorio, tras analizar las necesidades de nuestros clientes para conseguir sus objetivos. Abarcamos desde el desarrollo y la creación de packs originales, a la selección de materiales, procesos y acabados concretos para que el producto sea perfecto</p>
 			</div></a>
 		</div>
 		</Slide>

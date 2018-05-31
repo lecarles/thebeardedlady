@@ -24,7 +24,7 @@ export default () => (
 
 	<Slide bottom>
 		<div className={styles.double}>
-			<p className={styles.text1}>Recibimos el encargo de crear la identidad del corto sobre el Último Circo del mundo, en uno de los proyectos más importantes y que más nos han marcado como diseñadores. </p>
+			<p className={styles.text1}>Xàbia recibe gran parte del porcentaje de turismo autonómico pero su problemática reside en la falta de turismo de invierno. Por eso nos pidieron una campaña de promoción de Xàbia con el eslogan “Todo el año, cualquier día” y su hastag #Xabia365 para demostrar que Xàbia es un lugar con muchas posibilidades todo el año.</p>
 		</div>
 	</Slide>
 
@@ -37,12 +37,12 @@ export default () => (
 
 	<Slide bottom>
 		<div className={styles.double}>
-			<p  className={styles.text3}>Para la web se trasladaron los valores del cartel y el 'feel' oscuro y elegante de la identidad. En ella se publicita el corto al público mostrándole la trama y sus personajes.</p>
+			<p  className={styles.text3}>Los colores utilizados han sido el azul y el blanco. Ambos reflejan claridad, frescura y tranquilidad, muy acorde con los valores de turismo de Xàbia. Podemos ver una puerta típica del lugar que representa la bienvenida, la puerta de entrada a este paraíso inexplorado. Los elementos que introducimos hacen que el diseño de Xàbia quede limpio y sencillo.</p>
 		</div> 
 	</Slide>
 	
 	<Slide bottom>
-				<Link to='/xabia/' className={styles.next}>Siguiente Proyecto<svg className={styles.nextarrow}version="1.2" baseProfile="tiny" x="0px" y="0px" width="112.5px" height="34.3px" viewBox="0 0 112.5 34.3">
+				<Link to='/xuquer/' className={styles.next}>Siguiente Proyecto<svg className={styles.nextarrow}version="1.2" baseProfile="tiny" x="0px" y="0px" width="112.5px" height="34.3px" viewBox="0 0 112.5 34.3">
 		<defs>
 		</defs>
 		<g>

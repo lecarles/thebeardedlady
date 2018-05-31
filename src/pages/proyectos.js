@@ -69,7 +69,7 @@ render () {
 				<Link to="/circo/"><div onMouseEnter={this.toggleClassCircoOn} onMouseExit={this.toggleClassCircoOff} className={styles.proyecto} id={this.state.isOnCirco ? styles.pprimero : styles.pprimerofade}><div className={styles.texto}><Slide right>el último circo</Slide></div></div></Link>
 				<Link to="/singlu/"><div onMouseEnter={this.toggleClassSingluOn} onMouseExit={this.toggleClassSingluOff} className={styles.proyecto} id={this.state.isOnSinglu ? styles.psegundo : styles.psegundofade}><div className={styles.texto}><Slide right>singlu</Slide></div></div></Link>
 				<Link to="/xabia/"><div onMouseEnter={this.toggleClassXabiaOn} onMouseExit={this.toggleClassXabiaOff} className={styles.proyecto} id={this.state.isOnXabia ? styles.ptercero : styles.ptercerofade}><div className={styles.texto}><Slide right>xàbia 365</Slide></div></div></Link>
-				<Link to="/paredes/"><div onMouseEnter={this.toggleClassParedesOn} onMouseExit={this.toggleClassParedesOff} className={styles.proyecto} id={this.state.isOnParedes ? styles.pcuarto : styles.pcuartofade}><div className={styles.texto}><Slide right>paredes</Slide></div></div></Link>
+				<Link to="/xuquer/"><div onMouseEnter={this.toggleClassParedesOn} onMouseExit={this.toggleClassParedesOff} className={styles.proyecto} id={this.state.isOnParedes ? styles.pcuarto : styles.pcuartofade}><div className={styles.texto}><Slide right>xúquer</Slide></div></div></Link>
 			</div>
 
 

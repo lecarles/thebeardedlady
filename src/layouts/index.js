@@ -25,8 +25,8 @@ export default ({ children }) => (
 	            </div>
 	            <div className={styles.menuright}>
 		            <a className={styles.menuitem} target="_blank" href="https://twitter.com/TBLStudio_"><FontAwesome name='twitter'/></a>
-		            <a className={styles.menuitem} href="#"><FontAwesome name='instagram'/></a>
-		            <a className={styles.menuitem} href="#"><FontAwesome name='facebook'/></a>
+		            <a className={styles.menuitem} target="_blank" href="https://www.instagram.com/tblstudio_/"><FontAwesome name='instagram'/></a>
+		            <a className={styles.menuitem} target="_blank" href="https://www.facebook.com/The-Bearded-Lady-Studio-2075699575976424/?ref=bookmarks"><FontAwesome name='facebook'/></a>
 	            </div>
 	          </div>
 	        }

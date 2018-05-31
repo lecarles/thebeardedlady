@@ -67,5 +67,25 @@ body{
 	grid-row: 2;
 }
 
+.links{
+    float: left;
+    font-size: 1.5em;
+}
 
+.double{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
+
+.xarxes {
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    padding-bottom:  4em;
+}
+.menuitem{
+    font-size: 1.3em;
+    padding-right: 1em;
+    float: left;
+    display: inline;
+}

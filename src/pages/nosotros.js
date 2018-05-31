@@ -14,6 +14,7 @@ import nosotros from '../img/NOSOTROS.mp4'
 import image2 from '../img/img2.jpg'
 import styles from "../css/nosotros.module.css";
 import Slide from 'react-reveal/Slide';
+import FontAwesome from 'react-fontawesome';
 
 require('../css/global.css');
 
@@ -125,6 +126,11 @@ return(
 			<video onMouseEnter={this.playVideo.bind(this)} onMouseOut={this.pauseVideo.bind(this)} loop mute ref="vidRef" src={silvia} type="video/mp4"></video>
 			<div className={styles.ustexto}>
 					<h2 className={styles.ustitle}>silvia bonillo</h2>
+					<div className={styles.xarxes}>
+						<a className={styles.menuitem} target="_blank" href="https://www.instagram.com/silviabonillo/"><FontAwesome name='instagram'/></a>
+						<a className={styles.menuitem} target="_blank" href="https://twitter.com/silviabonillo"><FontAwesome name='twitter'/></a>
+						<a className={styles.menuitem} target="_blank" href="https://es.linkedin.com/in/silvia-bonillo-ribera-6037a0159"><FontAwesome name='linkedin'/></a>
+					</div>
 					<p className={styles.usdesc}>Directa  y sincera por naturaleza. Me gusta que las cosas estén en armonía con el universo y por ello me dedico a conectar elementos para crear bonitas composiciones (o al menos, intentarlo). En definitiva, me apasiona el diseño gráfico, por lo que aquí estoy, viendo el mundo y deseando plasmarlo a mi modo.</p>
 			</div>
 		</div>
@@ -136,6 +142,10 @@ return(
 			<video onMouseEnter={this.playVideoOne.bind(this)} onMouseOut={this.pauseVideoOne.bind(this)} loop mute ref="vidRefOne" src={bea} type="video/mp4"></video>
 			<div className={styles.ustexto}>
 					<h2 id={styles.textbea} className={styles.ustitle}>bea del caz</h2>
+					<div className={styles.xarxes}>
+						<a className={styles.menuitem} target="_blank" href="https://www.linkedin.com/in/beatriz-del-caz-25a09ab6/"><FontAwesome name='linkedin'/></a>
+						<a className={styles.menuitem} target="_blank" href="https://es-es.facebook.com/public/Beatriz-del-Caz"><FontAwesome name='facebook'/></a>
+					</div>
 					<p className={styles.usdesc}>De pequeña quería ser Indiana Jones, así que ahora me encargo de buscar clientes. Invierto mi experiencia jugando al tetris organizando el estudio. Cuando no estoy ahí, me dedico a crear contenido para webs como Flooxer o Cocinatis mientras estudio filología española. Lo mío es ser multitarea.</p>
 			</div>
 		</div>
@@ -145,7 +155,11 @@ return(
 		<div className={styles.perfiles}>
 		<video onMouseEnter={this.playVideoTwo.bind(this)} onMouseOut={this.pauseVideoTwo.bind(this)} loop mute ref="vidRefTwo" src={jorge} type="video/mp4"></video>
 			<div className={styles.ustexto}>
-					<h2 className={styles.ustitle}>jorge galán</h2>
+					<h2 id={styles.textbea} className={styles.ustitle}>jorge galán</h2>
+					<div className={styles.xarxes}>
+						<a className={styles.menuitem} target="_blank" href="https://www.instagram.com/jorgegalan209/"><FontAwesome name='instagram'/></a>
+						<a className={styles.menuitem} target="_blank" href="https://www.linkedin.com/in/jorge-galán-del-blanco-ba8a87159/"><FontAwesome name='linkedin'/></a>
+					</div>
 					<p className={styles.usdesc}>Me considero un chico alegre y extrovertido cuyas mayores aficiones son hablar, comer y dormir; aunque prácticamente todo el día me lo paso trabajando en lo que más me gusta: El mundo del diseño. Desde pequeño apuntaba alto usando Paint y Comic Sans. Aunque ahora que lo pienso, creo que es esa la razón por la que la mayor parte de mi trabajo hoy en día es ser Influencer en las redes sociales. </p>
 			</div>
 		</div>
@@ -155,7 +169,10 @@ return(
 		<div className={styles.perfiles}>
 		<video onMouseEnter={this.playVideoThree.bind(this)} onMouseOut={this.pauseVideoThree.bind(this)} loop mute ref="vidRefThree" src={selene} type="video/mp4"></video>
 			<div className={styles.ustexto}>
-					<h2 className={styles.ustitle}>selene gómez</h2>
+					<h2 id={styles.textbea} className={styles.ustitle}>selene gómez</h2>
+					<div className={styles.xarxes}>
+						<a className={styles.menuitem} target="_blank" href="https://www.instagram.com/seleneegomez/"><FontAwesome name='instagram'/></a>
+					</div>
 					<p className={styles.usdesc}>Un sabio un día me miró y me dijo: “Un mar en calma nunca hizo una pirata experta”, probablemente no sea el dicho correcto, ni un verdadero sabio, pero me gusta pensar que soy esa pirata. Me considero una chica explosiva y extremadamente soñadora capaz de proyectarlo en todos los aspectos de mi vida, sobre todo en el trabajo. Además, mi madre dice que soy guapa y perfecta ¿qué más puedo decir?</p>
 			</div>
 		</div>
@@ -166,6 +183,9 @@ return(
 		<video onMouseEnter={this.playVideoFive.bind(this)} onMouseOut={this.pauseVideoFive.bind(this)} loop mute ref="vidRefFive" src={john} type="video/mp4"></video>
 			<div className={styles.ustexto}>
 					<h2 className={styles.ustitle}>john grothier</h2>
+					<div className={styles.xarxes}>
+						<a className={styles.menuitem} target="_blank" href="https://www.linkedin.com/in/johngrothier/"><FontAwesome name='linkedin'/></a>
+					</div>
 					<p className={styles.usdesc}>Como buen niño de los 90, me crié con dibujos animados y videojuegos japoneses. Desde entonces me cautivan las bandas sonoras de 8-bit y los estilos visuales noventeros. Doy vida sonora y apoyo visual en nuestros proyectos 2D o 3D.</p>
 			</div>
 		</div>
@@ -176,6 +196,11 @@ return(
 		<video onMouseEnter={this.playVideoFour.bind(this)} onMouseOut={this.pauseVideoFour.bind(this)} loop mute ref="vidRefFour" src={carles} type="video/mp4"></video>
 			<div className={styles.ustexto}>
 					<h2 className={styles.ustitle}>carles ibáñez</h2>
+					<div className={styles.xarxes}>
+						<a className={styles.menuitem} target="_blank" href="https://www.behance.net/carles261298d3"><FontAwesome name='behance'/></a>
+						<a className={styles.menuitem} target="_blank" href="https://github.com/lecarles"><FontAwesome name='github'/></a>
+						<a className={styles.menuitem} target="_blank" href="https://www.linkedin.com/in/carles-ib%C3%A1%C3%B1ez-golfe-8a33b8164/"><FontAwesome name='linkedin'/></a>
+					</div>
 					<p className={styles.usdesc}>De pequeño quería ser motorista pero he terminado haciendo diseño gráfico y programación web. Cuando quiero procrastinar sin sentirme mal, toco la guitarra, cuando no, juego a videojuegos. Además, presido el club de fans oficial de Marshall McLuhan: señor del mensaje y amo del medio.</p>
 			</div>
 		</div>
@@ -186,6 +211,10 @@ return(
 		<video onMouseEnter={this.playVideoSix.bind(this)} onMouseOut={this.pauseVideoSix.bind(this)} loop mute ref="vidRefSix" src={fabian} type="video/mp4"></video>
 			<div className={styles.ustexto}>
 					<h2 className={styles.ustitle}>fabián muñoz</h2>
+					<div className={styles.xarxes}>
+						<a className={styles.menuitem} target="_blank" href="https://www.linkedin.com/in/fabi%C3%A1n-mu%C3%B1oz-atienza-557237153/"><FontAwesome name='linkedin'/></a>
+						<a className={styles.menuitem} target="_blank" href="https://twitter.com/fabianmuat"><FontAwesome name='twitter'/></a>
+					</div>
 					<p className={styles.usdesc}>Medio actor, medio pintamonos, busqué algo que uniera estas dos disciplinas. Como Hollywood estaba tan sobrecargado me dedico a la animación en dos dimensiones (la de toda la vida, vaya). Soy el encargado de que todo se mueva como toca y, además, con un toque de gracia. A veces lo mezclamos con el 3D, agitado pero no revuelto.</p>
 			</div>
 		</div>
@@ -197,6 +226,11 @@ return(
 		<video onMouseEnter={this.playVideoSeven.bind(this)} onMouseOut={this.pauseVideoSeven.bind(this)} loop mute ref="vidRefSeven" src={pallar} type="video/mp4"></video>
 			<div className={styles.ustexto}>
 					<h2 className={styles.ustitle}>irene pallardó</h2>
+					<div className={styles.xarxes}>
+						<a className={styles.menuitem} target="_blank" href="https://www.instagram.com/irenepallar/"><FontAwesome name='instagram'/></a>
+						<a className={styles.menuitem} target="_blank" href="https://www.facebook.com/irene.pallardoperez?ref=bookmarks"><FontAwesome name='facebook'/></a>
+						<a className={styles.menuitem} target="_blank" href="https://www.linkedin.com/in/irene-pallard%C3%B3-p%C3%A9rez-92a775138/"><FontAwesome name='linkedin'/></a>
+					</div>
 					<p className={styles.usdesc}>Graduada en Comunicación Audiovisual soy la tesorera de nuestro estudio. Sí, con lo que he odiado las matemáticas desde bien pequeña. Supongo que mi manía por los números me ha traído hasta aquí y no el hecho de que me guste Taburete, ya sabéis. La realidad es que amo trabajar y creo fielmente en lo que hago, así es como aporto mi grano de arena en este equipo.</p>
 			</div>
 		</div>
@@ -207,6 +241,10 @@ return(
 			<video onMouseEnter={this.playVideoEight.bind(this)} onMouseOut={this.pauseVideoEight.bind(this)} loop mute ref="vidRefEight" src={andreu} type="video/mp4"></video>
 				<div className={styles.ustexto}>
 					<h2 className={styles.ustitle}>andreu vicedo</h2>
+					<div className={styles.xarxes}>
+						<a className={styles.menuitem} target="_blank" href="https://twitter.com/AVicedoRovira"><FontAwesome name='twitter'/></a>
+						<a className={styles.menuitem} target="_blank" href="https://www.linkedin.com/in/andreu-vicedo-rovira-496366164/"><FontAwesome name='linkedin'/></a>
+					</div>
 					<p className={styles.usdesc}>Nací en Denia y soy un apasionado del diseño gráfico y el modelado y la animación 3D.
 						Mi especialidad son la cartelería publicitaria y artística y la animación creativa. Soy el que se encarga de toda la animación en 3D de la productora y junto al departamento de Diseño conseguimos los resultados que puedes ver en nuestra web.
 					</p>
